@@ -17,7 +17,7 @@ func HomeRouterHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("key:", k)
 		fmt.Println("val:", strings.Join(v, ""))
 	}
-	fmt.Fprintf(w, "Hello Maksim!") // отправляем данные на клиентскую сторону
+	fmt.Fprintf(w, "  🍄  nothing more to do 💃💫   🚀") // отправляем данные на клиентскую сторону
 }
 
 func main() {
